@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/gsaptest",
+	"version": "0.1.0",
+	"title": "Gsap Test",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gsaptest",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "",
+	"attributes": {
+		"markup": {
+			"type": "string",
+			"source": "html",
+			"selector": ".markup"
+		},
+		"styles": {
+			"type": "string",
+			"source": "text",
+			"selector": "style"
+		},
+		"scripts": {
+			"type": "string",
+			"source": "text",
+			"selector": "script"
+		},
+		"callBack": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "script",
+			"attribute": "data-call-back"
+		}
+	}
+}
