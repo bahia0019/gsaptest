@@ -8,15 +8,17 @@ export default function save(props) {
 	return (
 		<div {...useBlockProps.save()}>
 			<RawHTML class="markup">{markup}</RawHTML>
-			<div class="controls">
-				<button
-					class="gsap-button wp-element-button wp-block-button__link"
-					id="press"
-					onclick={callBack}
-				>
-					Press Me
-				</button>
-			</div>
+			{callBack && (
+				<div class="controls">
+					<button
+						class="gsap-button wp-element-button wp-block-button__link"
+						id="press"
+						onclick={callBack}
+					>
+						Press Me
+					</button>
+				</div>
+			)}
 			{styles && <style>{styles}</style>}
 			{scripts && <script data-call-back={callBack}>{scripts}</script>}
 		</div>

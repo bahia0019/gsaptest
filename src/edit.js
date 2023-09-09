@@ -91,15 +91,17 @@ export default function Edit(props) {
 			{isPreview && (
 				<>
 					<RawHTML class="markup">{markup}</RawHTML>
-					<div class="controls">
-						<button
-							class="gsap-button wp-element-button wp-block-button__link"
-							id="press"
-							onclick={callBack}
-						>
-							Press Me
-						</button>
-					</div>
+					{callBack && (
+						<div class="controls">
+							<button
+								class="gsap-button wp-element-button wp-block-button__link"
+								id="press"
+								onclick={callBack}
+							>
+								Press Me
+							</button>
+						</div>
+					)}
 					<style>{styles}</style>
 					<script data-call-back={callBack}>{scripts}</script>
 				</>
