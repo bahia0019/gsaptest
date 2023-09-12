@@ -15,7 +15,7 @@ export default function save(props) {
 						id="press"
 						onclick={callBack}
 					>
-						Press Me
+						Play
 					</button>
 				</div>
 			)}

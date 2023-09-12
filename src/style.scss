@@ -7,4 +7,13 @@
 
 .wp-block-create-block-gsaptest {
 	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	.controls {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 2.5em;
+	}
 }

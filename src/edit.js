@@ -98,7 +98,7 @@ export default function Edit(props) {
 								id="press"
 								onclick={callBack}
 							>
-								Press Me
+								Play
 							</button>
 						</div>
 					)}

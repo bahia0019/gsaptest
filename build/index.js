@@ -108,7 +108,7 @@ function Edit(props) {
     class: "gsap-button wp-element-button wp-block-button__link",
     id: "press",
     onclick: callBack
-  }, "Press Me")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("style", null, styles), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("script", {
+  }, "Play")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("style", null, styles), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("script", {
     "data-call-back": callBack
   }, scripts)), isHTML && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.PlainText, {
     value: markup,
@@ -237,7 +237,7 @@ function save(props) {
     class: "gsap-button wp-element-button wp-block-button__link",
     id: "press",
     onclick: callBack
-  }, "Press Me")), styles && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("style", null, styles), scripts && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("script", {
+  }, "Play")), styles && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("style", null, styles), scripts && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("script", {
     "data-call-back": callBack
   }, scripts));
 }
