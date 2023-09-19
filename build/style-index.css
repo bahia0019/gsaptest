@@ -11,8 +11,6 @@
   padding: 2px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
 }
 .wp-block-create-block-gsaptest .controls {
   display: flex;

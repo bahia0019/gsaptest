@@ -9,8 +9,6 @@
 .wp-block-create-block-gsaptest {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
 }
 .wp-block-create-block-gsaptest .code-area {
   display: flex;
